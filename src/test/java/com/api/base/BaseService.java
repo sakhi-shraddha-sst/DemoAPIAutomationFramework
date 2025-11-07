@@ -1,9 +1,7 @@
 package com.api.base;
 
-import com.api.models.request.LoginRequest;
 import static io.restassured.RestAssured.*;
 
-import com.api.models.request.UpdateProfileRequest;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
