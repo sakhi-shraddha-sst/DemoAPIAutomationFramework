@@ -1,12 +1,7 @@
 package com.api.tests;
 
 import com.api.base.AuthService;
-import com.api.models.request.ForgotPasswordRequest;
-import com.api.models.request.LoginRequest;
-import com.api.models.response.ForgotPasswordResponse;
-import com.api.models.response.LoginResponse;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ForgotPasswordAPITest1 {

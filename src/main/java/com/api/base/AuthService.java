@@ -1,6 +1,5 @@
 package com.api.base;
 
-import com.api.models.request.ForgotPasswordRequest;
 import com.api.models.request.LoginRequest;
 import com.api.models.request.SignUpRequest;
 import io.restassured.response.Response;

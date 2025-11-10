@@ -15,7 +15,7 @@ public class LoginAPITest {
         RequestSpecification x =  RestAssured.given();
        RequestSpecification y = x.header("Content-Type", "application/json");
         RequestSpecification z = y.body("{ \"username\": \"shraddha.qa\", \"password\": \"Pass@12345\" }");
-        Response response = z.post("/api/auth/login");
+        Response response = z.post("/com/api/auth/login");
         System.out.println(response.asPrettyString());
 
         Assert.assertEquals(response.getStatusCode(), 200);

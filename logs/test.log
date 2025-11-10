@@ -164,3 +164,982 @@ Connection=keep-alive
 }
 18:02:32.480 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
 18:02:32.489 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:29:38.984 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:29:38.999 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+19:29:38.999 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+19:29:39.456 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+19:29:39.456 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+19:29:39.456 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+19:29:39.459 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+19:29:39.459 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+19:29:39.459 [main] FATAL com.api.listeners.TestListener - Message>> Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "java.lang.ThreadLocal.get()" is null
+19:29:39.463 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:30:52.050 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:30:52.070 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+19:30:52.070 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+19:30:52.720 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+19:30:52.720 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+19:30:52.720 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+19:30:53.034 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+19:30:53.034 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:00:53 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:30:53.048 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:00:53",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+19:30:53.068 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+19:30:53.068 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+19:30:53.068 [main] FATAL com.api.listeners.TestListener - Message>> com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.LoginResponse), not marked as ignorable (6 known properties: "username", "token", "type", "id", "email", "roles"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.LoginResponse["timestamp"])
+19:30:53.071 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:34:32.211 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:34:32.223 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+19:34:32.223 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+19:34:32.746 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+19:34:32.746 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+19:34:32.747 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+19:34:33.010 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+19:34:33.010 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:04:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:34:33.024 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:04:32",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+19:34:33.042 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+19:34:33.042 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+19:34:33.043 [main] FATAL com.api.listeners.TestListener - Message>> com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.LoginResponse), not marked as ignorable (6 known properties: "username", "token", "type", "id", "email", "roles"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.LoginResponse["timestamp"])
+19:34:33.046 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:36:03.817 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:36:03.829 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+19:36:03.829 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+19:36:04.359 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+19:36:04.359 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+19:36:04.359 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+19:36:04.664 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+19:36:04.665 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:06:04 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:36:04.679 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:06:04",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+19:36:04.698 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+19:36:04.698 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+19:36:04.699 [main] FATAL com.api.listeners.TestListener - Message>> com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.LoginResponse), not marked as ignorable (6 known properties: "username", "token", "type", "id", "email", "roles"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.LoginResponse["timestamp"])
+19:36:04.702 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:07:28.637 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:07:28.650 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:07:28.650 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:07:29.145 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:07:29.145 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:07:29.145 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:07:29.438 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:07:29.439 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:37:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:07:29.453 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:37:29",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:07:29.473 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:07:29.474 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:07:29.474 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.LoginResponse), not marked as ignorable (6 known properties: "username", "token", "type", "id", "email", "roles"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.LoginResponse["timestamp"])
+20:07:29.492 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:24:59.708 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:24:59.721 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:24:59.721 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:25:00.251 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:25:00.251 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:25:00.251 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:25:00.554 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:25:00.554 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:55:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:25:00.569 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:55:00",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:25:00.590 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:25:00.590 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:25:00.590 [main] FATAL com.api.listeners.TestListener - Message>> expected object to not be null
+20:25:00.593 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:26:58.599 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:26:58.612 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:26:58.612 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:26:59.123 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:26:59.123 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:26:59.123 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:26:59.435 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:26:59.435 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:56:59 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:26:59.450 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:56:59",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:26:59.475 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:26:59.475 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:26:59.475 [main] FATAL com.api.listeners.TestListener - Message>> did not expect [null] but found [null]
+20:26:59.478 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:27:23.569 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:27:23.582 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:27:23.582 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:27:24.112 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:27:24.112 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:27:24.113 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:27:24.397 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:27:24.397 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 14:57:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:24.411 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 14:57:24",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:27:24.434 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:27:24.434 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:27:24.434 [main] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:27:24.437 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:29:53.715 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:29:53.716 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:29:53.716 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:30:59.516 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:30:59.530 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:30:59.531 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:31:00.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:31:00.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:31:00.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:31:00.312 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:31:00.312 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:01:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:31:00.325 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:01:00",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:31:00.350 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:31:00.350 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:31:00.350 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:31:00.354 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:35:35.898 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:35:35.913 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:35:35.913 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:35:36.434 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:35:36.435 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:35:36.435 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:35:36.718 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:35:36.718 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:05:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:36.732 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:05:36",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:35:36.756 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:35:36.756 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:35:36.756 [main] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:35:36.759 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:36:33.306 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:36:33.325 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:36:33.326 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:36:34.042 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:36:34.042 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:36:34.042 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [200] but found [401]
+20:36:34.046 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:39:05.036 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:39:05.053 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:39:05.054 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:39:05.567 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:39:05.567 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:39:05.567 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:39:05.856 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:39:05.857 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:09:05 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:39:05.871 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:09:05",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:39:05.894 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:39:05.894 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:39:05.895 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:39:05.898 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:39:46.081 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:39:46.097 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:39:46.097 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:39:46.599 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:39:46.600 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:39:46.600 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:39:46.869 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:39:46.869 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:09:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:39:46.884 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:09:46",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:39:46.909 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:39:46.909 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:39:46.909 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:39:46.913 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:41:20.823 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:41:20.839 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:41:20.839 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:41:21.353 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:21.353 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:41:21.353 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:41:21.639 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:41:21.639 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:11:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:21.653 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:11:21",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:41:21.678 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:41:21.678 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:41:21.678 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:41:21.682 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:41:58.829 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:41:58.845 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:41:58.845 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:41:59.339 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:59.339 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:41:59.339 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:41:59.641 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:41:59.641 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:11:59 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:59.656 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:11:59",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:41:59.679 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:41:59.679 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:41:59.679 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:41:59.683 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:42:32.210 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:42:32.227 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:42:32.227 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:42:32.697 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:42:32.698 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:42:32.698 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:42:32.971 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:42:32.971 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:12:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:42:32.984 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:12:32",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:42:33.007 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:42:33.007 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:42:33.007 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:42:33.011 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:43:25.394 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:43:25.407 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:43:25.408 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:43:25.871 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:43:25.871 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:43:25.871 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:43:26.137 [main] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:43:26.137 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:13:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:43:26.150 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:13:26",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:43:26.173 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:43:26.174 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:43:26.174 [main] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:43:26.176 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:45:01.703 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:45:01.716 [main] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:45:01.716 [main] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:45:02.500 [main] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:45:02.500 [main] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:45:02.500 [main] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:45:02.503 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:55:02.948 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:55:02.964 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:55:02.964 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:55:03.458 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:55:03.458 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:55:03.458 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:55:03.762 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:55:03.762 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:25:03 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:55:03.779 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:25:03",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:55:03.803 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:55:03.804 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:55:03.804 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:55:03.810 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:55:23.240 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:55:23.257 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:55:23.257 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:55:23.773 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:55:23.773 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:55:23.773 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:55:24.042 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 401
+20:55:24.042 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=262
+Date=Mon, 10 Nov 2025 15:25:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:55:24.058 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-10 15:25:24",
+    "status": 401,
+    "error": "Authentication Required",
+    "message": "You must be logged in to access this resource",
+    "path": "/com/api/auth/login",
+    "solution": "Please login or provide valid authentication credentials",
+    "errorCode": "AUTH_006"
+}
+20:55:24.084 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed>> loginTest
+20:55:24.084 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description>> verify if login API is working 
+20:55:24.084 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message>> expected [shraddha.st.qa@gmail.com] but found [null]
+20:55:24.094 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:57:09.443 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:57:09.460 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:57:09.461 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:57:09.937 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:57:09.937 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:57:09.937 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:57:10.286 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:57:10.286 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:27:10 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:57:10.300 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODQzMCwiZXhwIjoxNzYyNzkyMDMwfQ.EUqJKqF8Hx5jHLBAeHESIsZ9j6zBVAHXWp4W5avxni0",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:57:10.321 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+20:57:10.322 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:59:54.714 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:59:54.729 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+20:59:54.730 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+20:59:55.259 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:59:55.260 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:59:55.260 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:59:55.649 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:59:55.649 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:29:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:59:55.664 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODU5NSwiZXhwIjoxNzYyNzkyMTk1fQ.hwn5jmx5BoyrUDfxtiHLehunl7hlwMbn8Txv52jMyoc",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:59:55.684 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+20:59:55.686 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:00:30.864 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:00:30.881 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:00:30.882 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:00:31.419 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:00:31.420 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:00:31.420 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:00:31.813 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:00:31.814 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:30:31 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:00:31.827 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODYzMSwiZXhwIjoxNzYyNzkyMjMxfQ.l8KA0qq8jJcqmpzaQ2o-szA6JFtQvlrh5BPdEY_8SYE",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:00:31.847 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:00:31.848 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:01:08.491 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:01:08.507 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:01:08.507 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:01:09.021 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:01:09.022 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:01:09.022 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:01:09.378 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:01:09.378 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:31:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:01:09.391 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODY2OSwiZXhwIjoxNzYyNzkyMjY5fQ.j4WsFgGqqO5ZRz9G2YeL1VdGt31sK2PuuBdqxOR4zBQ",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:01:09.412 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:01:09.413 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:03:35.235 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:03:35.250 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:03:35.250 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:03:35.800 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:03:35.800 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:03:35.800 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:03:36.199 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:03:36.200 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:33:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:03:36.213 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODgxNiwiZXhwIjoxNzYyNzkyNDE2fQ.cJrVKpSJyED_g4swLx1uXWaSzPBQKK19Y9Kh5TGZF40",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:03:36.236 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:03:36.238 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:05:01.051 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:05:01.066 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:05:01.066 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:05:01.593 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:05:01.593 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:05:01.593 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:05:01.969 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:05:01.970 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:35:01 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:05:01.983 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODkwMSwiZXhwIjoxNzYyNzkyNTAxfQ.gaa69DhIhneY1mpoU-oucI-Jf7795I1xW2Hw1A4kPTQ",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:05:02.005 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:05:02.006 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:06:37.192 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:06:37.209 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:06:37.209 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:06:37.734 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:06:37.735 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:06:37.735 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:06:38.139 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:06:38.139 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:36:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:38.154 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4ODk5OCwiZXhwIjoxNzYyNzkyNTk4fQ.LGmoTAA0uUwLCS34cFQGbT7CfmFbCTvxubZK8eQeQiY",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:06:38.175 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:06:38.176 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:10:11.939 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:10:11.954 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+21:10:11.955 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+21:10:12.490 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:10:12.490 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:10:12.491 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:10:12.887 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:10:12.887 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 15:40:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:10:12.901 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc4OTIxMiwiZXhwIjoxNzYyNzkyODEyfQ.rLVgFgimmyZ9o5baAiw2QXZCtpUHNNwyabjq1T1MVNg",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:10:12.923 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+21:10:12.924 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+22:32:37.697 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+22:32:37.713 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started >> loginTest
+22:32:37.713 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description>> verify if login API is working 
+22:32:38.245 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+22:32:38.246 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+22:32:38.246 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+22:32:38.649 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+22:32:38.649 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Nov 2025 17:02:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:32:38.663 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjc5NDE1OCwiZXhwIjoxNzYyNzk3NzU4fQ.ngdHu6-jIYQgsdAVDpus7dAkfdXGN1CDI1k7pH2_cBk",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:32:38.686 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
+22:32:38.687 [main] INFO  com.api.listeners.TestListener - Test Suite Completed

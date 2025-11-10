@@ -1,18 +1,25 @@
 package com.api.tests;
 
+//import com.api.listeners.TestListener;
+//import com.api.base.AuthService;
+//import com.api.models.request.LoginRequest;
+//import com.api.models.response.LoginResponse;
+//import io.restassured.response.Response;
+//import org.testng.Assert;
+//import org.testng.annotations.Listeners;
+//import org.testng.annotations.Test;
+
+
 import com.api.base.AuthService;
+import com.api.listeners.TestListener;
 import com.api.models.request.LoginRequest;
 import com.api.models.response.LoginResponse;
 import io.restassured.response.Response;
-import org.apache.http.impl.conn.SystemDefaultRoutePlanner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-
-
-@Listeners(com.api.listeners.TestListener.class)
+@Listeners(TestListener.class)
 public class LoginAPITest3 {
 
     @Test(description="verify if login API is working ")
@@ -32,7 +39,7 @@ public class LoginAPITest3 {
         System.out.println(loginResponse.getId());
 
 
-        Assert.assertNotNull(loginResponse.getToken());
+        Assert.assertNotEquals(loginResponse.getToken(), null);
         Assert.assertEquals(loginResponse.getEmail() , "shraddha.st.qa@gmail.com");
         Assert.assertEquals(loginResponse.getId() , 2737);
 

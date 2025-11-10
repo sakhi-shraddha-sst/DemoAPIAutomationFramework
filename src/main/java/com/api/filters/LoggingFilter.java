@@ -1,5 +1,6 @@
 package com.api.filters;
 
+import com.api.reporting.ExtentReportManager;
 import io.restassured.filter.Filter;
 import io.restassured.filter.FilterContext;
 import io.restassured.response.Response;
@@ -26,6 +27,7 @@ public class LoggingFilter implements Filter {
     logger.info("BASE URI > " + requestSpec.getBaseUri());
     logger.info("REQUEST HEADER > " + requestSpec.getHeaders());
     logger.info("REQUEST Payload > " + requestSpec.getBody());
+    ExtentReportManager.logExeRequest(requestSpec);
 
     }
 
@@ -34,6 +36,7 @@ public class LoggingFilter implements Filter {
         logger.info("Status Code > " + response.getStatusCode());
         logger.info("Response Header > " + response.headers());
         logger.info("Response Body > " + response.getBody().prettyPrint());
+        ExtentReportManager.logExeResponse(response);
 
     }
 
