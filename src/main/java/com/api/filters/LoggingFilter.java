@@ -16,9 +16,11 @@ public class LoggingFilter implements Filter {
 
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec, FilterContext ctx) {
 
+        ExtentReportManager.logExeRequest(requestSpec);
         logRequest(requestSpec);
        Response response = ctx.next(requestSpec, responseSpec);
         logResponse(response);
+        ExtentReportManager.logExeResponse(response);
         return response;
     }
 
@@ -27,7 +29,7 @@ public class LoggingFilter implements Filter {
     logger.info("BASE URI > " + requestSpec.getBaseUri());
     logger.info("REQUEST HEADER > " + requestSpec.getHeaders());
     logger.info("REQUEST Payload > " + requestSpec.getBody());
-    ExtentReportManager.logExeRequest(requestSpec);
+//    ExtentReportManager.logExeRequest(requestSpec);
 
     }
 
@@ -36,7 +38,8 @@ public class LoggingFilter implements Filter {
         logger.info("Status Code > " + response.getStatusCode());
         logger.info("Response Header > " + response.headers());
         logger.info("Response Body > " + response.getBody().prettyPrint());
-        ExtentReportManager.logExeResponse(response);
+//        ExtentReportManager.logExeResponse(response);
+
 
     }
 

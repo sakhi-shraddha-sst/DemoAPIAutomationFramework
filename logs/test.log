@@ -1143,3 +1143,3473 @@ Connection=keep-alive
 }
 22:32:38.686 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed>> loginTest
 22:32:38.687 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:05:32.067 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:05:32.086 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => loginTest
+20:05:32.087 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if login API is working 
+20:05:32.658 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:05:32.658 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:05:32.658 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:05:33.029 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:05:33.029 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 14:35:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:05:33.041 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MTczMywiZXhwIjoxNzYyODc1MzMzfQ.ffXcgskw6RLSwiyqO1OiTYaBtKoSxs-OQMIu0urQDFE",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:05:33.063 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => loginTest
+20:05:33.065 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:19:29.772 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:19:29.774 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:19:29.774 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:20:05.733 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:20:05.750 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:20:05.750 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:20:06.287 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:20:06.287 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:20:06.287 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:20:06.622 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:20:06.622 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 14:50:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:20:06.636 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MjYwNiwiZXhwIjoxNzYyODc2MjA2fQ.G0hfngInLiJPnrxfvIS-KI50uQ9HXqKhKjgmS-y90u4",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:20:06.657 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:20:06.658 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MjYwNiwiZXhwIjoxNzYyODc2MjA2fQ.G0hfngInLiJPnrxfvIS-KI50uQ9HXqKhKjgmS-y90u4
+Accept=*/*
+20:20:06.658 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:20:06.769 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:20:06.769 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 14:50:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:20:06.770 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:20:06.772 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+20:20:06.773 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:28:59.134 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:28:59.152 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:28:59.152 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:28:59.692 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:28:59.692 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:28:59.692 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:29:00.044 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:29:00.044 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 14:59:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:29:00.056 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzE0MCwiZXhwIjoxNzYyODc2NzQwfQ.7BjNVqqfExnVxTAhBfY4n6W1JOAkXmiVTgbh55PnBqI",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:29:00.080 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:29:00.080 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzE0MCwiZXhwIjoxNzYyODc2NzQwfQ.7BjNVqqfExnVxTAhBfY4n6W1JOAkXmiVTgbh55PnBqI
+Accept=*/*
+20:29:00.080 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:29:00.192 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:29:00.192 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 14:59:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:29:00.193 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:29:00.196 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+20:29:00.196 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:29:00.196 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:29:00.201 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:30:39.861 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:30:39.876 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:30:39.876 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:30:40.411 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:30:40.411 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:30:40.411 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:30:40.768 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:30:40.769 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 15:00:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:30:40.782 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzI0MCwiZXhwIjoxNzYyODc2ODQwfQ.tnQsWXbiThaTpBlAKSj84K-oPRyGpI5Pum4hngAWQHM",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:30:40.802 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:30:40.802 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzI0MCwiZXhwIjoxNzYyODc2ODQwfQ.tnQsWXbiThaTpBlAKSj84K-oPRyGpI5Pum4hngAWQHM
+Accept=*/*
+20:30:40.802 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:30:40.928 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:30:40.928 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 15:00:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:30:40.928 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:30:40.932 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+20:30:40.932 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:30:40.932 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:30:40.936 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:32:06.897 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:32:06.914 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:32:06.914 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:32:07.433 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:32:07.433 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:32:07.433 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:32:07.771 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:32:07.771 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 15:02:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:32:07.783 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzMyNywiZXhwIjoxNzYyODc2OTI3fQ.NhtDV8_IphmzrqhqqhKWR59_2tI3mKAoDfrJJlm1b8c",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:32:07.804 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:32:07.804 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjg3MzMyNywiZXhwIjoxNzYyODc2OTI3fQ.NhtDV8_IphmzrqhqqhKWR59_2tI3mKAoDfrJJlm1b8c
+Accept=*/*
+20:32:07.804 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:32:07.912 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:32:07.912 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 11 Nov 2025 15:02:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:32:07.913 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:32:07.917 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+20:32:07.918 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:32:07.918 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:32:07.922 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+12:44:21.227 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+12:44:21.246 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+12:44:21.246 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+12:44:21.815 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+12:44:21.816 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+12:44:21.816 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+12:44:22.180 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+12:44:22.180 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:14:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:44:22.193 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMTY2MiwiZXhwIjoxNzYyOTM1MjYyfQ.RBzuI49Kk7NsxL0o-xpChbGWRcajTfoL0rYK9FrfDRw",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:44:22.215 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+12:44:22.215 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMTY2MiwiZXhwIjoxNzYyOTM1MjYyfQ.RBzuI49Kk7NsxL0o-xpChbGWRcajTfoL0rYK9FrfDRw
+Accept=*/*
+12:44:22.215 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+12:44:22.410 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+12:44:22.411 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:14:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:44:22.415 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+12:44:22.422 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+12:44:22.422 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+12:44:22.422 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+12:44:22.428 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+13:16:47.385 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+13:16:47.401 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+13:16:47.401 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+13:16:47.920 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:16:47.921 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+13:16:47.921 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+13:16:48.282 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:16:48.282 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:46:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:16:48.296 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzYwOCwiZXhwIjoxNzYyOTM3MjA4fQ.LpBnODY8CglTjCG021u6WtQp22B0EGWbNwpQ7HXl-rI",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:16:48.317 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:16:48.318 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzYwOCwiZXhwIjoxNzYyOTM3MjA4fQ.LpBnODY8CglTjCG021u6WtQp22B0EGWbNwpQ7HXl-rI
+Accept=*/*
+13:16:48.318 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+13:16:48.447 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:16:48.447 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:46:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:16:48.448 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+13:16:48.453 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+13:16:48.453 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+13:16:48.453 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "2755761182": Overflow: numeric value (2755761182) out of range of int (-2147483648 -2147483647)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 19] (through reference chain: java.lang.Object[][0]->com.api.models.response.AccountControllerResponse["accountNumber"])
+13:16:48.457 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+13:18:21.963 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+13:18:21.982 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+13:18:21.982 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+13:18:22.507 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:18:22.507 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+13:18:22.507 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+13:18:22.865 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:18:22.866 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:48:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:18:22.879 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzcwMiwiZXhwIjoxNzYyOTM3MzAyfQ._8doUsVemxkCopK8xK5nxKg9oOjUxJabMtDYsEu9fs8",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:18:22.899 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:18:22.899 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzcwMiwiZXhwIjoxNzYyOTM3MzAyfQ._8doUsVemxkCopK8xK5nxKg9oOjUxJabMtDYsEu9fs8
+Accept=*/*
+13:18:22.899 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+13:18:23.026 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:18:23.026 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:48:23 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:18:23.027 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+13:18:23.037 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+13:18:23.038 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+13:19:14.196 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+13:19:14.213 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+13:19:14.213 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+13:19:14.731 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:19:14.731 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+13:19:14.731 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+13:19:15.087 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:19:15.088 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:49:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:19:15.102 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzc1NSwiZXhwIjoxNzYyOTM3MzU1fQ.PCUM9bwfsQ5UTXhpbcngLFoHcGGkwWWiarOAnH8ISAQ",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:19:15.127 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+13:19:15.127 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MjkzMzc1NSwiZXhwIjoxNzYyOTM3MzU1fQ.PCUM9bwfsQ5UTXhpbcngLFoHcGGkwWWiarOAnH8ISAQ
+Accept=*/*
+13:19:15.127 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+13:19:15.252 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+13:19:15.252 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 07:49:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:19:15.256 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+13:19:15.268 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+13:19:15.270 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+14:08:01.853 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+14:08:01.975 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+14:08:01.975 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+14:08:02.422 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+14:08:02.422 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+14:08:02.422 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+14:08:02.424 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+14:08:02.424 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+14:08:02.424 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "java.lang.ThreadLocal.get()" is null
+14:08:02.430 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:47:13.828 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:47:13.962 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:47:13.962 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:47:14.429 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:47:14.429 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:47:14.429 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:47:14.432 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getUserAccounts
+20:47:14.432 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:47:14.432 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "java.lang.ThreadLocal.get()" is null
+20:47:14.437 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:20:05.458 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:20:05.474 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+21:20:05.475 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+21:20:06.035 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:20:06.036 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:20:06.036 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:20:06.376 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:20:06.376 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:50:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:20:06.390 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2MjYwNiwiZXhwIjoxNzYyOTY2MjA2fQ.eVAV_LfY_EZ_VMme39ElIBCUjwUgoRkwISP4DADPP3w",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:20:06.414 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:20:06.414 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2MjYwNiwiZXhwIjoxNzYyOTY2MjA2fQ.eVAV_LfY_EZ_VMme39ElIBCUjwUgoRkwISP4DADPP3w
+Accept=*/*
+21:20:06.414 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+21:20:06.533 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:20:06.533 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:50:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:20:06.533 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+21:20:06.544 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+21:20:06.545 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:20:55.365 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:20:55.380 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+21:20:55.380 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+21:20:55.931 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:20:55.931 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:20:55.932 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:20:56.288 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:20:56.289 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:50:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:20:56.302 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2MjY1NiwiZXhwIjoxNzYyOTY2MjU2fQ.0yu00VnjsRB4DmOQtwCB2-UF_pmJiapVyd-AXVLletM",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:20:56.325 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:20:56.326 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2MjY1NiwiZXhwIjoxNzYyOTY2MjU2fQ.0yu00VnjsRB4DmOQtwCB2-UF_pmJiapVyd-AXVLletM
+Accept=*/*
+21:20:56.326 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+21:20:56.457 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:20:56.457 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:50:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:20:56.457 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+21:20:56.467 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+21:20:56.468 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:26:00.971 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:26:00.989 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+21:26:00.989 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+21:26:01.545 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:26:01.545 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:26:01.545 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:26:01.893 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:26:01.893 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:56:01 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:26:01.906 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2Mjk2MSwiZXhwIjoxNzYyOTY2NTYxfQ.3gOy-PgWX5BK-bTHC29YYyZ7QsZTV2Q6WVZJgFptZPI",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:26:01.929 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:26:01.929 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2Mjk2Mjk2MSwiZXhwIjoxNzYyOTY2NTYxfQ.3gOy-PgWX5BK-bTHC29YYyZ7QsZTV2Q6WVZJgFptZPI
+Accept=*/*
+21:26:01.929 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+21:26:02.074 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:26:02.074 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 12 Nov 2025 15:56:02 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:26:02.075 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+21:26:02.086 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+21:26:02.087 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:21:40.103 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:21:40.119 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+18:21:40.119 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+18:21:40.682 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+18:21:40.682 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+18:21:40.682 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+18:21:41.061 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+18:21:41.062 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 13 Nov 2025 12:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:21:41.076 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzAzODMwMSwiZXhwIjoxNzYzMDQxOTAxfQ.6n-FTGJuZ7l1oW9CzBajB882MfPFxmBijhCDFTmX7gs",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:21:41.098 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+18:21:41.098 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzAzODMwMSwiZXhwIjoxNzYzMDQxOTAxfQ.6n-FTGJuZ7l1oW9CzBajB882MfPFxmBijhCDFTmX7gs
+Accept=*/*
+18:21:41.098 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+18:21:41.261 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+18:21:41.261 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 13 Nov 2025 12:51:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:21:41.262 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+18:21:41.274 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+18:21:41.276 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:25:31.540 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:25:31.556 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+18:25:31.556 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+18:25:32.149 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+18:25:32.149 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+18:25:32.149 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+18:25:32.545 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+18:25:32.545 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 13 Nov 2025 12:55:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:25:32.558 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzAzODUzMiwiZXhwIjoxNzYzMDQyMTMyfQ.JHqu-_VcMgjpeeoZBW62EZtixxG6sm6QChixa1YRn_w",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:25:32.579 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+18:25:32.579 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzAzODUzMiwiZXhwIjoxNzYzMDQyMTMyfQ.JHqu-_VcMgjpeeoZBW62EZtixxG6sm6QChixa1YRn_w
+Accept=*/*
+18:25:32.580 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+18:25:32.702 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+18:25:32.702 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 13 Nov 2025 12:55:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:25:32.702 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+18:25:32.707 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getAccountNumberDetails
+18:25:32.707 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+18:25:32.707 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse[]` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+18:25:32.711 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:19:54.839 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:19:54.856 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+20:19:54.856 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+20:19:55.454 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:19:55.454 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:19:55.454 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:19:55.853 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:19:55.853 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:49:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:19:55.866 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMTc5NSwiZXhwIjoxNzYzMTM1Mzk1fQ.xbyRqnvX_BMR-5ND9g3080zvlH_B8hiwowTx1pXDW-M",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:19:55.889 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:19:55.889 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMTc5NSwiZXhwIjoxNzYzMTM1Mzk1fQ.xbyRqnvX_BMR-5ND9g3080zvlH_B8hiwowTx1pXDW-M
+Accept=*/*
+20:19:55.889 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:19:55.999 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:19:55.999 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:49:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:19:56.000 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+20:19:56.005 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getAccountNumberDetails
+20:19:56.005 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+20:19:56.005 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse[]` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:19:56.010 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:21:16.798 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:21:16.799 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:21:16.799 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:21:17.211 [main] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:21:17.211 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:51:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:21:17.229 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMTg3NywiZXhwIjoxNzYzMTM1NDc3fQ.yaHjg_VPtYvkTOcK_zvmPZZDuvk6jwT3Z0PjLBfPE9U",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:21:17.252 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:21:17.252 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMTg3NywiZXhwIjoxNzYzMTM1NDc3fQ.yaHjg_VPtYvkTOcK_zvmPZZDuvk6jwT3Z0PjLBfPE9U
+Accept=*/*
+20:21:17.252 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:21:17.359 [main] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:21:17.359 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:51:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:21:17.360 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+20:24:48.461 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:24:48.475 [main] INFO  com.api.listeners.TestListener - Started => loginTest
+20:24:48.475 [main] INFO  com.api.listeners.TestListener - Description => verify if login API is working 
+20:24:49.035 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:24:49.035 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:24:49.035 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:24:49.407 [main] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:24:49.407 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:54:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:24:49.421 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMjA4OSwiZXhwIjoxNzYzMTM1Njg5fQ.CKPK-IgGlZqT4lQ2zh9IuSr6lVWo6DelqUdSDBjFlAQ",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:24:49.445 [main] INFO  com.api.listeners.TestListener - Passed => loginTest
+20:24:49.446 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:27:49.842 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:27:49.857 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+20:27:49.858 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+20:27:50.410 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:27:50.410 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:27:50.410 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:27:50.805 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:27:50.805 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:57:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:50.819 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMjI3MCwiZXhwIjoxNzYzMTM1ODcwfQ.3IZOqdmmndFLpncEZ9iUbUKi_-yLESm3Xa3gbcDn9ds",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:27:50.841 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:27:50.841 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMjI3MCwiZXhwIjoxNzYzMTM1ODcwfQ.3IZOqdmmndFLpncEZ9iUbUKi_-yLESm3Xa3gbcDn9ds
+Accept=*/*
+20:27:50.841 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:27:50.960 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:27:50.960 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 14:57:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:50.966 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+20:27:50.972 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => getAccountNumberDetails
+20:27:50.972 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+20:27:50.972 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.api.models.response.AccountControllerResponse[]` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:27:50.976 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:39:23.771 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:39:23.788 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+20:39:23.788 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+20:39:24.331 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:39:24.331 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:39:24.331 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:39:24.700 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:39:24.700 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:09:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:39:24.713 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMjk2NCwiZXhwIjoxNzYzMTM2NTY0fQ.rkLpiODTqX-mXOvL_uf8V4UuWaQNIJN6yR2EXvXidcM",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:39:24.734 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:39:24.734 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMjk2NCwiZXhwIjoxNzYzMTM2NTY0fQ.rkLpiODTqX-mXOvL_uf8V4UuWaQNIJN6yR2EXvXidcM
+Accept=*/*
+20:39:24.734 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:39:24.861 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:39:24.862 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:09:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:39:24.862 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+20:39:24.867 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getAccountNumberDetails
+20:39:24.868 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:41:08.756 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:41:08.773 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:41:08.774 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:41:09.316 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:09.316 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:41:09.316 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:41:09.701 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:41:09.702 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:11:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:09.718 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMzA2OSwiZXhwIjoxNzYzMTM2NjY5fQ.VhHVn5zUrppaGzTO28RWce6vlo2CY0-D6BS9pECtvQo",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:41:09.741 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:09.741 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMzA2OSwiZXhwIjoxNzYzMTM2NjY5fQ.VhHVn5zUrppaGzTO28RWce6vlo2CY0-D6BS9pECtvQo
+Accept=*/*
+20:41:09.742 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:41:09.887 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:41:09.888 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:11:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:09.889 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:41:09.897 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+20:41:09.899 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+20:41:53.117 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+20:41:53.132 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+20:41:53.133 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+20:41:53.670 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:53.670 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+20:41:53.670 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+20:41:54.016 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:41:54.016 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:11:53 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:54.030 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMzExMywiZXhwIjoxNzYzMTM2NzEzfQ.Q15ZX1LJk7rKm7isx4iglHoe3EO-18qtvOBlA2Bv0q0",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:41:54.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+20:41:54.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzMzExMywiZXhwIjoxNzYzMTM2NzEzfQ.Q15ZX1LJk7rKm7isx4iglHoe3EO-18qtvOBlA2Bv0q0
+Accept=*/*
+20:41:54.053 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+20:41:54.210 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+20:41:54.210 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:11:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:41:54.211 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+20:41:54.224 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+20:41:54.225 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+21:08:45.629 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+21:08:45.647 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+21:08:45.647 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+21:08:45.648 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+21:08:45.648 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+21:08:46.189 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:08:46.189 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:08:46.189 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:08:46.189 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+21:08:46.189 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:08:46.189 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+21:08:46.690 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:08:46.690 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:08:46.691 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:38:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:08:46.691 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:38:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:08:46.707 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzNDcyNiwiZXhwIjoxNzYzMTM4MzI2fQ.DrJ3QV0wbv9vRaX3XtppdrzgLNgDitjYoC8HXPOyAkE",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:08:46.707 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzNDcyNiwiZXhwIjoxNzYzMTM4MzI2fQ.DrJ3QV0wbv9vRaX3XtppdrzgLNgDitjYoC8HXPOyAkE",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:08:46.729 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:08:46.729 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzNDcyNiwiZXhwIjoxNzYzMTM4MzI2fQ.DrJ3QV0wbv9vRaX3XtppdrzgLNgDitjYoC8HXPOyAkE
+Accept=*/*
+21:08:46.729 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+21:08:46.729 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+21:08:46.729 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzEzNDcyNiwiZXhwIjoxNzYzMTM4MzI2fQ.DrJ3QV0wbv9vRaX3XtppdrzgLNgDitjYoC8HXPOyAkE
+Accept=*/*
+21:08:46.729 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+21:08:46.888 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:08:46.888 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:38:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:08:46.889 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    }
+]
+21:08:46.894 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+21:08:46.894 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 15:38:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:08:46.894 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+21:08:46.897 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getAccountNumberDetails
+21:08:46.900 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+21:08:46.901 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:21:19.485 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:21:19.499 [main] INFO  com.api.listeners.TestListener - Started => loginTest
+23:21:19.499 [main] INFO  com.api.listeners.TestListener - Description => verify if login API is working 
+23:21:20.040 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:21:20.040 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:21:20.040 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:21:20.401 [main] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:21:20.401 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:51:20 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:21:20.415 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0MjY4MCwiZXhwIjoxNzYzMTQ2MjgwfQ.jhG69tTf1svIgWjFz5PVwlXQFG3VMBey1tU7bgOinrM",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:21:20.436 [main] INFO  com.api.listeners.TestListener - Passed => loginTest
+23:21:20.436 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:22:27.886 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:22:27.899 [main] INFO  com.api.listeners.TestListener - Started => loginTest
+23:22:27.900 [main] INFO  com.api.listeners.TestListener - Description => verify if login API is working 
+23:22:28.456 [main] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:22:28.456 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:22:28.456 [main] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:22:28.824 [main] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:22:28.825 [main] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:52:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:22:28.838 [main] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mjc0OCwiZXhwIjoxNzYzMTQ2MzQ4fQ.iXqOdknV_7AtOx28ynRzhg-DIizBMNWIqFXMpXPfJlg",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:22:28.861 [main] INFO  com.api.listeners.TestListener - Passed => loginTest
+23:22:28.862 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:22:38.141 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:22:38.158 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+23:22:38.158 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+23:22:38.158 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+23:22:38.158 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+23:22:38.706 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:22:38.706 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:22:38.706 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:22:38.706 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:22:38.706 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:22:38.706 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:22:39.071 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:22:39.071 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:52:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:22:39.084 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mjc1OSwiZXhwIjoxNzYzMTQ2MzU5fQ.YiiX7-jiUjrSwFzbdzwLUhjnR8Bh6kwkqeXexq82Yjs",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:22:39.107 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:22:39.107 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mjc1OSwiZXhwIjoxNzYzMTQ2MzU5fQ.YiiX7-jiUjrSwFzbdzwLUhjnR8Bh6kwkqeXexq82Yjs
+Accept=*/*
+23:22:39.107 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+23:22:39.119 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:22:39.119 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:52:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:22:39.120 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mjc1OSwiZXhwIjoxNzYzMTQ2MzU5fQ.YiiX7-jiUjrSwFzbdzwLUhjnR8Bh6kwkqeXexq82Yjs",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:22:39.123 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:22:39.124 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mjc1OSwiZXhwIjoxNzYzMTQ2MzU5fQ.YiiX7-jiUjrSwFzbdzwLUhjnR8Bh6kwkqeXexq82Yjs
+Accept=*/*
+23:22:39.124 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+23:22:39.262 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:22:39.262 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:52:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:22:39.263 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3142724359",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "NORTH",
+        "createdAt": "2025-11-14T17:52:04.359126",
+        "ownerName": "Jass Team"
+    }
+]
+23:22:39.274 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+23:22:39.275 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:22:39.275 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 17:52:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:22:39.275 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+23:22:39.277 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getAccountNumberDetails
+23:22:39.278 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:42:52.001 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:42:52.018 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewUserAccount
+23:42:52.018 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:42:52.568 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:42:52.568 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:42:52.568 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:42:52.948 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:42:52.948 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:12:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:42:52.963 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0Mzk3MiwiZXhwIjoxNzYzMTQ3NTcyfQ.ERaLbFYaVfiEAgsgGR_kUFvNxgc42ik4VtioRUaoZq0",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:42:52.986 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:42:52.986 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:42:52.986 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"Main"}
+23:42:53.115 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+23:42:53.115 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:12:53 GMT
+Connection=close
+23:42:53.115 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:12:53",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+23:42:53.120 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewUserAccount
+23:42:53.120 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:42:53.120 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+23:42:53.124 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:44:48.898 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:44:48.918 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+23:44:48.918 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:44:49.460 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:44:49.461 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:44:49.461 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:44:49.870 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:44:49.870 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:14:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:44:49.884 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDA4OSwiZXhwIjoxNzYzMTQ3Njg5fQ.YCO-Pmw9bjUhGaV-Vp2tlBzvQJ6ASkrv_PKFIn_wT38",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:44:49.909 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:44:49.909 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer Main
+Accept=*/*
+Content-Type=application/json
+23:44:49.909 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDA4OSwiZXhwIjoxNzYzMTQ3Njg5fQ.YCO-Pmw9bjUhGaV-Vp2tlBzvQJ6ASkrv_PKFIn_wT38","branch":"SAVINGS"}
+23:44:50.049 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+23:44:50.049 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:14:50 GMT
+Connection=close
+23:44:50.050 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:14:50",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+23:44:50.055 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+23:44:50.056 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:44:50.056 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+23:44:50.061 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:46:50.416 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:46:50.433 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+23:46:50.434 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:46:50.967 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:46:50.967 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:46:50.967 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:46:51.357 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:46:51.358 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:16:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:46:51.372 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDIxMSwiZXhwIjoxNzYzMTQ3ODExfQ.WyTtM8v66-TdSAVgNVyj-GOZnMFrlSRZTCQDgjqCtCk",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:46:51.397 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:46:51.397 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer Main
+Accept=*/*
+Content-Type=application/json
+23:46:51.397 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDIxMSwiZXhwIjoxNzYzMTQ3ODExfQ.WyTtM8v66-TdSAVgNVyj-GOZnMFrlSRZTCQDgjqCtCk","branch":"SAVINGS"}
+23:46:51.490 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+23:46:51.491 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:16:51 GMT
+Connection=close
+23:46:51.491 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:16:51",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+23:46:51.497 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+23:46:51.497 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:46:51.497 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+23:46:51.502 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:49:01.422 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:49:01.438 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+23:49:01.439 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:49:01.994 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:49:01.995 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:49:01.995 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:49:02.350 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:49:02.350 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:19:02 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:49:02.365 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDM0MiwiZXhwIjoxNzYzMTQ3OTQyfQ.T5NcA1jEDgx-Oyn3Tr9rFb_2oq3Bt6wZZ24hJ7yqPuA",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:49:02.390 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:49:02.390 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer Main
+Accept=*/*
+Content-Type=application/json
+23:49:02.390 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDM0MiwiZXhwIjoxNzYzMTQ3OTQyfQ.T5NcA1jEDgx-Oyn3Tr9rFb_2oq3Bt6wZZ24hJ7yqPuA","branch":"SAVINGS"}
+23:49:02.533 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+23:49:02.533 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:19:02 GMT
+Connection=close
+23:49:02.534 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:19:02",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+23:49:02.542 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+23:49:02.542 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:49:02.542 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+23:49:02.548 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+23:54:16.537 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+23:54:16.553 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+23:54:16.553 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:54:17.117 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:54:17.117 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+23:54:17.117 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+23:54:17.502 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+23:54:17.502 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:24:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:54:17.516 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDY1NywiZXhwIjoxNzYzMTQ4MjU3fQ.WK_o1Gny6oEo8B7ihNNtwG5_LLF7eZwyNM8urwjCmQQ",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:54:17.540 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+23:54:17.540 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer Main
+Accept=*/*
+Content-Type=application/json
+23:54:17.540 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NDY1NywiZXhwIjoxNzYzMTQ4MjU3fQ.WK_o1Gny6oEo8B7ihNNtwG5_LLF7eZwyNM8urwjCmQQ","branch":"SAVINGS"}
+23:54:17.692 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+23:54:17.692 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:24:17 GMT
+Connection=close
+23:54:17.693 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:24:17",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+23:54:17.699 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+23:54:17.700 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+23:54:17.700 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+23:54:17.706 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:04:59.303 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:04:59.319 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+00:04:59.319 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:04:59.862 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:04:59.862 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:04:59.862 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:05:00.233 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:05:00.233 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:35:00 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:05:00.247 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTMwMCwiZXhwIjoxNzYzMTQ4OTAwfQ.1IHjd0Qh1ooVRhaKwQcGEr-hnIHOMEMSdcr1ZNaUX0Y",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:05:00.272 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:05:00.272 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer main
+Accept=*/*
+Content-Type=application/json
+00:05:00.272 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTMwMCwiZXhwIjoxNzYzMTQ4OTAwfQ.1IHjd0Qh1ooVRhaKwQcGEr-hnIHOMEMSdcr1ZNaUX0Y","branch":"SAVINGS"}
+00:05:00.380 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+00:05:00.380 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:35:00 GMT
+Connection=close
+00:05:00.381 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:35:00",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:05:00.385 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+00:05:00.385 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:05:00.385 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+00:05:00.390 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:05:11.692 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:05:11.707 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+00:05:11.707 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:05:12.249 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:05:12.249 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:05:12.249 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:05:12.605 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:05:12.605 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:35:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:05:12.618 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTMxMiwiZXhwIjoxNzYzMTQ4OTEyfQ.DJ78gNMAFMYTXpMAA5FLq-HOKN4PJ3PWLjuTw7abt2c",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:05:12.643 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:05:12.643 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer main
+Accept=*/*
+Content-Type=application/json
+00:05:12.644 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTMxMiwiZXhwIjoxNzYzMTQ4OTEyfQ.DJ78gNMAFMYTXpMAA5FLq-HOKN4PJ3PWLjuTw7abt2c","branch":"SAVINGS"}
+00:05:12.781 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 500
+00:05:12.781 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:35:12 GMT
+Connection=close
+00:05:12.782 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "timestamp": "2025-11-14 18:35:12",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:05:12.787 [TestNG-test-API Tests-1] ERROR com.api.listeners.TestListener - Failed => createNewAccount
+00:05:12.787 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:05:12.787 [TestNG-test-API Tests-1] FATAL com.api.listeners.TestListener - Message => com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "timestamp" (class com.api.models.response.AccountControllerResponse), not marked as ignorable (7 known properties: "status", "accountNumber", "accountType", "createdAt", "balance", "ownerName", "branch"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15] (through reference chain: com.api.models.response.AccountControllerResponse["timestamp"])
+00:05:12.792 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:06:03.877 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:06:03.895 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+00:06:03.895 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:06:04.439 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:06:04.439 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:06:04.439 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:06:04.827 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:06:04.827 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:36:04 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:06:04.840 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTM2NCwiZXhwIjoxNzYzMTQ4OTY0fQ.6RT29AXPrjXThVeJBkLi2U9efOl19GwXGgsmVRAhl0c",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:06:04.864 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:06:04.864 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTM2NCwiZXhwIjoxNzYzMTQ4OTY0fQ.6RT29AXPrjXThVeJBkLi2U9efOl19GwXGgsmVRAhl0c
+Accept=*/*
+Content-Type=application/json
+00:06:04.864 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:06:05.027 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:06:05.027 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:36:05 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:06:05.028 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3145365004",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T18:36:05.004509987",
+    "ownerName": "Jass Team"
+}
+00:06:05.042 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => createNewAccount
+00:06:05.043 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:09:10.296 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:09:10.315 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+00:09:10.315 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+00:09:10.315 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+00:09:10.315 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+00:09:10.315 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:09:10.315 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:09:10.873 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:10.873 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:10.873 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:10.873 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:09:10.873 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:09:10.873 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:09:10.873 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:09:10.873 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:09:10.873 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:09:11.278 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.278 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.289 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.289 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.289 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.289 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.295 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:09:11.295 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:09:11.295 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:09:11.317 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:11.317 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:11.317 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo
+Accept=*/*
+00:09:11.317 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo
+Accept=*/*
+00:09:11.317 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+00:09:11.317 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+00:09:11.319 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:09:11.319 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NTU1MSwiZXhwIjoxNzYzMTQ5MTUxfQ.-6lhLKzSFoNA6CG_RYNe54_KKQJSpbtDO0Av6U66udo
+Accept=*/*
+Content-Type=application/json
+00:09:11.319 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:09:11.465 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.466 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.467 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3142724359",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "NORTH",
+        "createdAt": "2025-11-14T17:52:04.359126",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3145365004",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T18:36:05.00451",
+        "ownerName": "Jass Team"
+    }
+]
+00:09:11.473 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.473 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:09:11.473 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.473 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:39:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:09:11.473 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "2755761182",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "MAIN_BRANCH",
+    "createdAt": "2025-11-10T06:22:41.182487",
+    "ownerName": "Jass Team"
+}
+00:09:11.473 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3145551439",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T18:39:11.439596856",
+    "ownerName": "Jass Team"
+}
+00:09:11.476 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Passed => getAccountNumberDetails
+00:09:11.478 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => createNewAccount
+00:09:11.478 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+00:09:11.479 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:18:28.439 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:18:28.454 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getAccountNumberDetails
+00:18:28.454 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:18:29.006 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:18:29.006 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:18:29.006 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:18:29.388 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:18:29.389 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:48:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:18:29.403 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NjEwOSwiZXhwIjoxNzYzMTQ5NzA5fQ.HuOT59alW3UjZnKkb0_H8kYWsh5XVT07ZZZastvH0Pk",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:18:29.428 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:18:29.428 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NjEwOSwiZXhwIjoxNzYzMTQ5NzA5fQ.HuOT59alW3UjZnKkb0_H8kYWsh5XVT07ZZZastvH0Pk
+Accept=*/*
+Content-Type=application/json
+00:18:29.428 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:18:29.579 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:18:29.579 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:48:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:18:29.580 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3146109553",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T18:48:29.553868671",
+    "ownerName": "Jass Team"
+}
+00:18:29.591 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:18:29.591 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NjEwOSwiZXhwIjoxNzYzMTQ5NzA5fQ.HuOT59alW3UjZnKkb0_H8kYWsh5XVT07ZZZastvH0Pk
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NjEwOSwiZXhwIjoxNzYzMTQ5NzA5fQ.HuOT59alW3UjZnKkb0_H8kYWsh5XVT07ZZZastvH0Pk
+Content-Type=application/json
+00:18:29.591 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:18:29.765 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:18:29.766 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 18:48:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:18:29.767 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3146109553",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T18:48:29.553869",
+    "ownerName": "Jass Team"
+}
+00:18:29.773 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getAccountNumberDetails
+00:18:29.774 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:33:54.500 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:33:54.515 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getNewAccountNumberDetails
+00:33:54.515 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:33:55.066 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:33:55.066 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:33:55.066 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:33:55.450 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:33:55.450 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:03:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:33:55.465 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzAzNSwiZXhwIjoxNzYzMTUwNjM1fQ.jIGm-S8qa706cjj48fNKH_c69owcFwHQZwena7_AbRc",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:33:55.489 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:33:55.489 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzAzNSwiZXhwIjoxNzYzMTUwNjM1fQ.jIGm-S8qa706cjj48fNKH_c69owcFwHQZwena7_AbRc
+Accept=*/*
+Content-Type=application/json
+00:33:55.489 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:33:55.666 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:33:55.666 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:03:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:33:55.667 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147035639",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:03:55.639613883",
+    "ownerName": "Jass Team"
+}
+00:33:55.676 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:33:55.676 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzAzNSwiZXhwIjoxNzYzMTUwNjM1fQ.jIGm-S8qa706cjj48fNKH_c69owcFwHQZwena7_AbRc
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzAzNSwiZXhwIjoxNzYzMTUwNjM1fQ.jIGm-S8qa706cjj48fNKH_c69owcFwHQZwena7_AbRc
+Content-Type=application/json
+00:33:55.676 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:33:55.812 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:33:55.812 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:03:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:33:55.818 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147035639",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:03:55.639614",
+    "ownerName": "Jass Team"
+}
+00:33:55.822 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getNewAccountNumberDetails
+00:33:55.824 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:37:11.220 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:37:11.236 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getNewAccountNumberDetails
+00:37:11.236 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:37:11.789 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:37:11.790 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:37:11.790 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:37:12.179 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:37:12.179 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:07:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:37:12.192 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzIzMiwiZXhwIjoxNzYzMTUwODMyfQ.4h6cvYyRpcXICs-8-E9P88lHDniHFt_BT7Mc6HDYIck",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:37:12.217 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:37:12.217 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzIzMiwiZXhwIjoxNzYzMTUwODMyfQ.4h6cvYyRpcXICs-8-E9P88lHDniHFt_BT7Mc6HDYIck
+Accept=*/*
+Content-Type=application/json
+00:37:12.217 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:37:12.385 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:37:12.386 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:07:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:37:12.387 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147232356",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:07:12.356028645",
+    "ownerName": "Jass Team"
+}
+00:37:12.401 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:37:12.401 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzIzMiwiZXhwIjoxNzYzMTUwODMyfQ.4h6cvYyRpcXICs-8-E9P88lHDniHFt_BT7Mc6HDYIck
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzIzMiwiZXhwIjoxNzYzMTUwODMyfQ.4h6cvYyRpcXICs-8-E9P88lHDniHFt_BT7Mc6HDYIck
+Content-Type=application/json
+00:37:12.401 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:37:12.535 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:37:12.535 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:07:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:37:12.536 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147232356",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:07:12.356029",
+    "ownerName": "Jass Team"
+}
+00:37:12.540 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getNewAccountNumberDetails
+00:37:12.542 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:40:12.592 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:40:12.608 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => getNewAccountNumberDetails
+00:40:12.609 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:40:13.153 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:40:13.153 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:40:13.153 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:40:13.548 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:40:13.548 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:10:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:40:13.561 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQxMywiZXhwIjoxNzYzMTUxMDEzfQ.dvkkG0dWK8MOqxfMqBMRwZC9yWbQZ7IMIJXeoaGGy3A",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:40:13.586 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:40:13.586 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQxMywiZXhwIjoxNzYzMTUxMDEzfQ.dvkkG0dWK8MOqxfMqBMRwZC9yWbQZ7IMIJXeoaGGy3A
+Accept=*/*
+Content-Type=application/json
+00:40:13.586 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:40:13.716 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:40:13.716 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:10:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:40:13.717 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147413687",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:10:13.687004183",
+    "ownerName": "Jass Team"
+}
+00:40:13.724 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:40:13.724 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQxMywiZXhwIjoxNzYzMTUxMDEzfQ.dvkkG0dWK8MOqxfMqBMRwZC9yWbQZ7IMIJXeoaGGy3A
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQxMywiZXhwIjoxNzYzMTUxMDEzfQ.dvkkG0dWK8MOqxfMqBMRwZC9yWbQZ7IMIJXeoaGGy3A
+Content-Type=application/json
+00:40:13.724 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:40:13.895 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:40:13.896 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:10:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:40:13.896 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147413687",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:10:13.687004",
+    "ownerName": "Jass Team"
+}
+00:40:13.900 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => getNewAccountNumberDetails
+00:40:13.902 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+00:41:25.676 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+00:41:25.693 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Started => getNewAccountNumberDetails
+00:41:25.693 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Started => createNewAccount
+00:41:25.693 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Started => getUserAccounts
+00:41:25.693 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Description => verify if user's account details is displaying by number or not 
+00:41:25.693 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Description => verify account creation is working or not 
+00:41:25.693 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Description => verify if user account is displaying or not 
+00:41:26.261 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.261 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.261 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.261 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:41:26.261 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:41:26.261 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Accept=*/*
+Content-Type=application/json
+00:41:26.261 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:41:26.261 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:41:26.261 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"username":"shraddha.qa","password":"Pass@12345"}
+00:41:26.643 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.643 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.657 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:41:26.659 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.660 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.660 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:41:26.665 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.665 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.666 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA",
+    "type": "Bearer",
+    "id": 2737,
+    "username": "shraddha.qa",
+    "email": "shraddha.st.qa@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:41:26.679 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.679 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA
+Accept=*/*
+00:41:26.679 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - REQUEST Payload > null
+00:41:26.680 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.680 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA
+Accept=*/*
+Content-Type=application/json
+00:41:26.680 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:41:26.680 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.681 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA
+Accept=*/*
+Content-Type=application/json
+00:41:26.681 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:41:26.801 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.801 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.801 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.801 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.801 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.801 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.802 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147486768",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:11:26.768972941",
+    "ownerName": "Jass Team"
+}
+00:41:26.802 [TestNG-test-API Tests-1] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147486770",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:11:26.770544336",
+    "ownerName": "Jass Team"
+}
+00:41:26.803 [TestNG-test-API Tests-3] INFO  com.api.filters.LoggingFilter - Response Body > [
+    {
+        "accountNumber": "2755761182",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-11-10T06:22:41.182487",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3142724359",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "NORTH",
+        "createdAt": "2025-11-14T17:52:04.359126",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3145365004",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T18:36:05.00451",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3145551439",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T18:39:11.439597",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3146109553",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T18:48:29.553869",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3147035639",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T19:03:55.639614",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3147232356",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T19:07:12.356029",
+        "ownerName": "Jass Team"
+    },
+    {
+        "accountNumber": "3147413687",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "main",
+        "createdAt": "2025-11-14T19:10:13.687004",
+        "ownerName": "Jass Team"
+    }
+]
+00:41:26.808 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - BASE URI > http://64.227.160.186:8080
+00:41:26.808 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST HEADER > Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaHJhZGRoYS5xYSIsImlhdCI6MTc2MzE0NzQ4NiwiZXhwIjoxNzYzMTUxMDg2fQ.iki0vnTtvLeDbB-nIdAxvXtusArc2sqAU7pz4EmYXVA
+Content-Type=application/json
+00:41:26.808 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - REQUEST Payload > {"accountType":"SAVINGS","branch":"main"}
+00:41:26.812 [TestNG-test-API Tests-1] INFO  com.api.listeners.TestListener - Passed => createNewAccount
+00:41:26.813 [TestNG-test-API Tests-3] INFO  com.api.listeners.TestListener - Passed => getUserAccounts
+00:41:26.974 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Status Code > 200
+00:41:26.974 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Header > Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 14 Nov 2025 19:11:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:41:26.975 [TestNG-test-API Tests-2] INFO  com.api.filters.LoggingFilter - Response Body > {
+    "accountNumber": "3147486768",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "main",
+    "createdAt": "2025-11-14T19:11:26.768973",
+    "ownerName": "Jass Team"
+}
+00:41:26.977 [TestNG-test-API Tests-2] INFO  com.api.listeners.TestListener - Passed => getNewAccountNumberDetails
+00:41:26.978 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
